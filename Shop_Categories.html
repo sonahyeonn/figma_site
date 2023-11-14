@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left"></a>
+        <h2>Shop Categories</h2>
+        <img src="images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
+    </header>
+
+    <div class="shop_slide">
+        <div><img src="images/caterory_slide_01.jpg" alt="이미지"></div>
+        <div><img src="images/caterory_slide_02.jpg" alt="이미지"></div>
+        <div><img src="images/caterory_slide_03.jpg" alt="이미지"></div>
+        <div><img src="images/caterory_slide_04.jpg" alt="이미지"></div>
+    </div>
+
+    <div class="shop_product">
+        <div class="product_list clearfix">
+            <div class="list">
+                <img src="images/category_product_01.jpg" alt="t-shirt">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+            <div class="list">
+                <img src="images/category_product_02.jpg" alt="shoes">
+                <h3>Shoes</h3>
+                <h4>1.5k Styles</h4>
+            </div>
+            <div class="list">
+                <img src="images/category_product_03.jpg" alt="t-shirts">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+            <div class="list">
+                <img src="images/category_product_04.jpg" alt="t-shirt">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.shop_slide').slick({
+            arrows: false,
+            dots: true,
+            //autoplay: true
+        });
+    </script>
+</body>
+
+</html>
+
+<!-- 화살표 없애는건 arrow
+점 없애는 건 dot pagenation
+자동돌아가기 autoplay -->
